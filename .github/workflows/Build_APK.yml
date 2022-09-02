@@ -1,12 +1,8 @@
 name: Build APK
 
 on:
-  push:
-    branches:
-      - '*'
-  pull_request:
-    branches:
-      - '*'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   build:
@@ -37,5 +33,5 @@ jobs:
           file: build/app/outputs/apk/release/app-release.apk
           asset_name: app-release.apk
           file_glob: true
-          tag: v1.0.0
+          tag: v0.1.0
           overwrite: true
