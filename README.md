@@ -28,7 +28,7 @@ I just wanted to create a simple note writing app that worked for Android. The c
 - [ ] Ability to add notes to categories and traverse through them
 
 ## License
-Do whatever you want with this, just don't make note apps with ads!
+Do whatever you want with this, just don't make note apps with ads, because they suck!
 
 ## Credit
 Based on the sample app by @santhalakshminarayana from [here](https://github.com/santhalakshminarayana/zehero-note).
