@@ -10,12 +10,14 @@
 <img src="assets/home.png" width="20%"> <img src="assets/edit.png" width="20%"> <img src="assets/select.png" width="20%"> <img src="assets/share.png" width="20%">
 </p>
  
-**WriteStuff** was developed for my twin sister as of frustration over the lack of ad-free note writing apps.
+**WriteStuff** was developed for my twin sister as of frustration over the lack of a simple ad-free note writing apps.
 
 </div>
 
 ## Usage
 Simply download the APK-file from [Releases](https://github.com/andreped/WriteStuff/releases) from your Android phone. Then click on the file and it should start the installer. After installation, simply click the app icon to start the app and you are good to go!
+
+Currently, we are unable to generate installers for iOS, as we don't have a license. Building installers for Android is free, whereas for iOS it costs money, as we need to pay for a license...
 
 ## Disclaimer
 I just wanted to create a simple note writing app that worked for Android. The core code is from [here](https://github.com/santhalakshminarayana/zehero-note), but needed to do some stuff to get it working for the new Android versions. I also changed the themes quite a bit. More to be added in the future.
