@@ -3,6 +3,7 @@
 <h3 align="center">A simple app for writing notes.</h3>
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![CI](https://github.com/andreped/WriteStuff/workflows/Build%20APK/badge.svg?branch=master&event=push)
 [![GitHub Downloads](https://img.shields.io/github/downloads/SINTEFMedtek/FAST-Pathology/total?label=GitHub%20downloads&logo=github)](https://github.com/SINTEFMedtek/FAST-Pathology/releases)
 
 <p align="center" width="100%">
