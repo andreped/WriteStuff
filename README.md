@@ -1,5 +1,5 @@
 <div align="center">
-<h1 align="center">Paper</h1>
+<h1 align="center">WriteStuff</h1>
 <h3 align="center">A simple app for writing notes.</h3>
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
@@ -9,19 +9,18 @@
 <img src="assets/home.png" width="20%"> <img src="assets/edit.png" width="20%"> <img src="assets/select.png" width="20%"> <img src="assets/share.png" width="20%">
 </p>
  
-**Paper** was developed for my sister as she got annoyed of getting spammed with adds using the Android app `notes`.
+**WriteStuff** was developed for my sister as she got annoyed of getting spammed with adds using the Android app `notes`.
 
 </div>
 
 ## Usage
-Simply download the APK-file from [Releases](https://github.com/andreped/paper/releases) from your Android phone. Then click on the file, it should start the installer. After installation, simply click the app icon to start the app and you are good to go!
+Simply download the APK-file from [Releases](https://github.com/andreped/Write Stuff/releases) from your Android phone. Then click on the file, it should start the installer. After installation, simply click the app icon to start the app and you are good to go!
 
 ## Disclaimer
 I just wanted to create a simple app that worked for Android. The core code is from [here](https://github.com/santhalakshminarayana/zehero-note), but needed to do some stuff to get it working for the new Android versions, as well as modified the themes quite a bit.
 
 ## TODOs
 - [x] Stable version
-- [ ] Apparently, there is a note app called `paper` already - find another name
 - [ ] Bullet list (ironic)
 - [ ] Markdown-esque writing notation
 - [ ] Emoji support
