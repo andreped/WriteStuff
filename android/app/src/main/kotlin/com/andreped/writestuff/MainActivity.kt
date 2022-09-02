@@ -1,4 +1,4 @@
-package com.andreped.paper
+package com.andreped.writestuff
 
 import io.flutter.embedding.android.FlutterActivity
 
