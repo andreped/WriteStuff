@@ -10,7 +10,7 @@
 <img src="assets/home.png" width="20%"> <img src="assets/edit.png" width="20%"> <img src="assets/select.png" width="20%"> <img src="assets/share.png" width="20%">
 </p>
  
-**WriteStuff** was developed for my twin sister as of frustration over the lack of a simple ad-free note writing apps.
+**WriteStuff** was developed for my twin sister as of frustration over the lack of a simple ad-free note writing app.
 
 </div>
 
