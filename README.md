@@ -26,6 +26,7 @@ I just wanted to create a simple note writing app that worked for Android. The c
 - [ ] Bullet list (ironic)
 - [ ] Markdown-esque writing notation
 - [ ] Ability to add notes to categories and traverse through them
+- [ ] Different types of notes (grocery lists, reminders, TODO lists, ...)
 
 ## License
 Do whatever you want with this, just don't make note apps with ads, because thats cringe!
