@@ -137,7 +137,7 @@ class _Home extends State<Home> {
 				title: Text(
 					(selectedNoteIds.length > 0?
 						('Selected ' + selectedNoteIds.length.toString() + '/' + notesData.length.toString()):
-						'Paper - Note App'
+						'WriteStuff'
 					),
 					style: TextStyle(
 						color: const Color(c1),
