@@ -1,6 +1,6 @@
 <div align="center">
 <h1 align="center">WriteStuff</h1>
-<h3 align="center">A simple app for writing notes.</h3>
+<h3 align="center">A simple android app for writing notes.</h3>
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![CI](https://github.com/andreped/WriteStuff/workflows/Build%20APK/badge.svg)
