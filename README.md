@@ -13,6 +13,9 @@
 
 </div>
 
+## Usage
+Simply download the APK-file from [Releases](https://github.com/andreped/paper/releases) from your Android phone. Then click on the file, it should start the installer. After installation, simply click the app icon to start the app and you are good to go!
+
 ## Disclaimer
 I just wanted to create a simple app that worked for Android. The core code is from [here](https://github.com/santhalakshminarayana/zehero-note), but needed to do some stuff to get it working for the new Android versions, as well as modified the themes quite a bit.
 
