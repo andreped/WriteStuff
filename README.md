@@ -10,15 +10,15 @@
 <img src="assets/home.png" width="20%"> <img src="assets/edit.png" width="20%"> <img src="assets/select.png" width="20%"> <img src="assets/share.png" width="20%">
 </p>
  
-**WriteStuff** was developed for my sister as she got annoyed of getting spammed with adds using the Android app `notes`.
+**WriteStuff** was developed for my twin sister as of frustration over the lack of ad-free note writing apps.
 
 </div>
 
 ## Usage
-Simply download the APK-file from [Releases](https://github.com/andreped/Write Stuff/releases) from your Android phone. Then click on the file, it should start the installer. After installation, simply click the app icon to start the app and you are good to go!
+Simply download the APK-file from [Releases](https://github.com/andreped/Write Stuff/releases) from your Android phone. Then click on the file and it should start the installer. After installation, simply click the app icon to start the app and you are good to go!
 
 ## Disclaimer
-I just wanted to create a simple app that worked for Android. The core code is from [here](https://github.com/santhalakshminarayana/zehero-note), but needed to do some stuff to get it working for the new Android versions, as well as modified the themes quite a bit.
+I just wanted to create a simple note writing app that worked for Android. The core code is from [here](https://github.com/santhalakshminarayana/zehero-note), but needed to do some stuff to get it working for the new Android versions. I also changed the themes quite a bit. More to be added in the future.
 
 ## TODOs
 - [x] Stable version
@@ -27,7 +27,7 @@ I just wanted to create a simple app that worked for Android. The core code is f
 - [ ] Emoji support
 
 ## License
-Do whatever you want with this. Just don't make note apps with adds!
+Do whatever you want with this, just don't make note apps with ads!
 
 ## Credit
 Based on the sample app by @santhalakshminarayana from [here](https://github.com/santhalakshminarayana/zehero-note).
