@@ -1,4 +1,4 @@
-name: Build and upload APK (Android) mobile app
+name: Build APK
 
 on:
   push:
