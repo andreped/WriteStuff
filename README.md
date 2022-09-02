@@ -22,9 +22,9 @@ I just wanted to create a simple note writing app that worked for Android. The c
 
 ## TODOs
 - [x] Stable version
+- [x] Emoji support
 - [ ] Bullet list (ironic)
 - [ ] Markdown-esque writing notation
-- [ ] Emoji support
 - [ ] Ability to add notes to categories and traverse through them
 
 ## License
