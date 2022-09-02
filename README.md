@@ -1,6 +1,6 @@
 <div align="center">
 <h1 align="center">WriteStuff</h1>
-<h3 align="center">A simple android app for writing notes.</h3>
+<h3 align="center">A simple mobile app for writing notes.</h3>
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![CI](https://github.com/andreped/WriteStuff/workflows/Build%20APK/badge.svg)
@@ -23,7 +23,7 @@ I just wanted to create a simple note writing app that worked for Android. The c
 ## TODOs
 - [x] Stable version
 - [x] Emoji support
-- [ ] Support for iOS
+- [X] Support for iOS
 - [ ] Bullet list (ironic)
 - [ ] Markdown-esque writing notation
 - [ ] Ability to add notes to categories and traverse through them
