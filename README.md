@@ -4,7 +4,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ![CI](https://github.com/andreped/WriteStuff/workflows/Build%20APK/badge.svg?branch=master&event=push)
-[![GitHub Downloads](https://img.shields.io/github/downloads/SINTEFMedtek/FAST-Pathology/total?label=GitHub%20downloads&logo=github)](https://github.com/SINTEFMedtek/FAST-Pathology/releases)
+[![GitHub Downloads](https://img.shields.io/github/downloads/andreped/WriteStuff/total?label=GitHub%20downloads&logo=github)](https://github.com/andreped/WriteStuff/releases)
 
 <p align="center" width="100%">
 <img src="assets/home.png" width="20%"> <img src="assets/edit.png" width="20%"> <img src="assets/select.png" width="20%"> <img src="assets/share.png" width="20%">
