@@ -18,6 +18,7 @@ I just wanted to create a simple app that worked for Android. The core code is f
 
 ## TODOs
 - [x] Stable version
+- [ ] Apparently, there is a note app called `paper` already - find another name
 - [ ] Bullet list (ironic)
 - [ ] Markdown-esque writing notation
 - [ ] Emoji support
