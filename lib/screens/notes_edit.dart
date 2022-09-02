@@ -19,7 +19,7 @@ class NotesEdit extends StatefulWidget {
 class _NotesEdit extends State<NotesEdit> {
 	String noteTitle = '';
 	String noteContent = '';
-	String noteColor = 'red';
+	String noteColor = 'blue';
 
 	TextEditingController _titleTextController = TextEditingController();
 	TextEditingController _contentTextController = TextEditingController();
@@ -181,7 +181,7 @@ class _NotesEdit extends State<NotesEdit> {
 		super.initState();
 		noteTitle = (widget.args[0] == 'new'? '': widget.args[1]['title']);
 		noteContent = (widget.args[0] == 'new'? '': widget.args[1]['content']);
-		noteColor = (widget.args[0] == 'new'? 'red': widget.args[1]['noteColor']);
+		noteColor = (widget.args[0] == 'new'? 'indigo': widget.args[1]['noteColor']);
 
 		_titleTextController.text = (widget.args[0] == 'new'? '': widget.args[1]['title']);
 		_contentTextController.text = (widget.args[0] == 'new'? '': widget.args[1]['content']);

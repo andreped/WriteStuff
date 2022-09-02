@@ -8,7 +8,8 @@ import '../theme/note_colors.dart';
 
 const c1 = 0xFFFDFFFC, c2 = 0xFFFF595E, c3 = 0xFF374B4A, c4 = 0xFF00B1CC, c5 = 0xFFFFD65C, c6 = 0xFFB9CACA,
 			c7 = 0x80374B4A, c8 = 0x3300B1CC, c9 = 0xCCFF595E, c10 = 0xFFE1BEE7, c11 = 0xFFBA68C8,
-			c12 = 0xFFC5CAE9, c13 = 0xFF7986CB;
+			c12 = 0xFFC5CAE9, c13 = 0xFF7986CB, c14 = 0xFFCFD8DC, c15 = 0xFF90A4AE,
+      c16 = 0xFFBBDEFB, c17 = 0xFF64B5F6, c18 = 0xFFD1C4E9, c19 = 0xFF9575CD;
 /*
 * Read all notes stored in database and sort them based on name
 */
@@ -111,7 +112,7 @@ class _Home extends State<Home> {
 	@override
 	Widget build(BuildContext context) {
 		return Scaffold(
-			backgroundColor: Color(c6),
+			backgroundColor: Color(c12),
 			appBar: AppBar(
 				automaticallyImplyLeading: false,
 				backgroundColor: const Color(c13),
@@ -174,10 +175,10 @@ class _Home extends State<Home> {
 				FloatingActionButton(
 					child: const Icon(
 						Icons.add,
-						color: const Color(c5),
+						color: const Color(c1),
 					),
 					tooltip: 'New Notes',
-					backgroundColor: const Color(c4),
+					backgroundColor: const Color(c13),
 					onPressed: () {
 						Navigator.pushNamed(
 							context,
@@ -346,7 +347,7 @@ class DisplayNotes extends StatelessWidget {
 												decoration: BoxDecoration(
 													color: (selectedNote == false?
 														Color(NoteColors[notesData['noteColor']]['b']):
-														Color(c9)
+														Color(c6)
 													),
 													shape: BoxShape.circle,
 												),
@@ -396,9 +397,9 @@ class DisplayNotes extends StatelessWidget {
 											Text(
 												notesData['content'] != null? notesData['content'].split('\n')[0]: "",
 												style: TextStyle(
-													color: Color(c7),
+													color: Color(c6),
 													fontSize: 16,
-													fontWeight: FontWeight.w300,
+													fontWeight: FontWeight.w400,
 												),
 											),
 										],
