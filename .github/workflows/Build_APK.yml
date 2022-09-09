@@ -1,4 +1,4 @@
-name: Build APK and IPA
+name: Build APK
 
 on:
   # Allows you to run this workflow manually from the Actions tab
