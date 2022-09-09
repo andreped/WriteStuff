@@ -1,8 +1,12 @@
 name: Build APK
 
 on:
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - '*'
 
 jobs:
   build:
@@ -20,7 +24,6 @@ jobs:
       - run: flutter pub get
       - run: flutter build apk --release
 
-      - name: Upload APK
       - uses: actions/upload-artifact@v2
         with:
           name: release-apk
@@ -34,5 +37,5 @@ jobs:
           file: build/app/outputs/apk/release/app-release.apk
           asset_name: app-release.apk
           file_glob: true
-          tag: v0.1.0
+          tag: v1.0.0
           overwrite: true
