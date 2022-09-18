@@ -133,7 +133,6 @@ class _Home extends State<Home> {
 					//AppBarLeading()
 					Container()
 				),
-
 				title: Text(
 					(selectedNoteIds.length > 0?
 						('Selected ' + selectedNoteIds.length.toString() + '/' + notesData.length.toString()):
@@ -142,6 +141,7 @@ class _Home extends State<Home> {
 					style: TextStyle(
 						color: const Color(c1),
 					),
+					textAlign: TextAlign.center,  // @TODO: This does nothing
 				),
 
 				actions: [

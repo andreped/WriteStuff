@@ -284,8 +284,9 @@ class _NoteTitleEntry extends State<NoteTitleEntry> with WidgetsBindingObserver 
 				hintText: 'Title',
 				hintStyle: TextStyle(
 					fontSize: 21,
-					fontWeight: FontWeight.bold,
+					fontWeight: FontWeight.normal,
 					height: 1.5,
+					color: Color(c3),
 				),
 			),
 			maxLength: 31,
@@ -334,6 +335,20 @@ class _NoteEntry extends State<NoteEntry> with WidgetsBindingObserver {
 		super.dispose();
 	}
 
+	/*
+	   decoration: InputDecoration(
+      fillColor: kGray08Color,
+      prefixIconConstraints: BoxConstraints(
+         minWidth: 20,
+         minHeight: 10,
+         maxHeight: 10,
+         maxWidth: 20,
+         ),
+      prefixIcon: Padding(padding: EdgeInsets.only(left: 10), child: ClipOval(child: Container( color: Colors.black, width: 5, height: 5)))
+      isDense: true,
+      ),
+	 */
+
 	@override
 	Widget build(BuildContext context) {
 		return Container(
@@ -345,6 +360,18 @@ class _NoteEntry extends State<NoteEntry> with WidgetsBindingObserver {
 				maxLines: null,
 				textCapitalization: TextCapitalization.sentences,
 				decoration: null,
+				/*decoration: InputDecoration(
+					fillColor: Colors.black45,
+					prefixIconConstraints: BoxConstraints(
+						minWidth: 20,
+						minHeight: 10,
+						maxHeight: 10,
+						maxWidth: 20,
+					),
+					prefixIcon: Padding(padding: EdgeInsets.only(left: 10), child: ClipOval(child: Container( color: Colors.black, width: 5, height: 5))),
+					isDense: true,
+				),
+				 */
 				style: TextStyle(
 					fontSize: 19,
 					height: 1.5,
