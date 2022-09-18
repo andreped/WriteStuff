@@ -18,7 +18,9 @@ jobs:
         with:
           flutter-version: '2.10.4'
       - run: flutter pub get
-      - run: flutter build ipa --release
+      #- run: flutter build ipa --release
+      - run: flutter build ios --release
+
 
       - name: Upload IPA
       - uses: actions/upload-artifact@v2
