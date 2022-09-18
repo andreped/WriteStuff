@@ -18,23 +18,11 @@ jobs:
         with:
           flutter-version: '2.10.4'
       - run: flutter pub get
-      #- run: flutter build ipa --release
       - run: flutter build ios --release
+      #- run: flutter build ipa --release
 
-
-      - name: Upload IPA
       - uses: actions/upload-artifact@v2
         with:
           name: release-ipa
           path: build/app/outputs/ipa/release/app-release.ipa
           if-no-files-found: error
-
-      - name: Add package to release tag
-        uses: svenstaro/upload-release-action@v2
-        with:
-          repo_name: andreped/WriteStuff
-          file: build/app/outputs/ipa/release/app-release.ipa
-          asset_name: app-release.ipa
-          file_glob: true
-          tag: v0.1.0
-          overwrite: true
