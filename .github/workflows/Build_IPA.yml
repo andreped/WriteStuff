@@ -14,6 +14,14 @@ jobs:
           distribution: 'zulu'
           java-version: '11'
 
+      - uses: actions/checkout@master
+      - uses: sinoru/actions-setup-xcode@v2
+        with:
+          xcode-version: '13.4' # Exact version of a Xcode version to use
+          apple-id: 'andrped94@gmail.com' # Apple ID to download from Apple Developer when Xcode not available in local
+          apple-id-password: ${{ secrets.APPLE_ID_PASSWORD }}
+      - run: fastlane scan
+
       - uses: subosito/flutter-action@v2
         with:
           flutter-version: '2.10.4'
